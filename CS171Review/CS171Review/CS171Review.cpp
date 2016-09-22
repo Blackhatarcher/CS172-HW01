@@ -1,20 +1,19 @@
 // CS171Review.cpp : Defines the entry point for the console application.
 //
-
+#include "stdafx.h"
 #include <iostream>
 #include <string>
 #include <math.h>
-//int argc, const char * argv[]
-int main(int argc, const char * argv[])
-{
-	ex02();
-	ex03();
-	ex04();
-	ex05();
 
-	return 0;
+int doubleint(int x) {
+	return x * 2;
 }
-
+int add(int x, int y) {
+	return x + y;
+}
+void addOne(int &x) {
+	x++;
+}
 void ex02() {
 	//a)
 	bool hassPassedTest = true;
@@ -69,7 +68,7 @@ void ex02() {
 
 void ex03() {
 	//a)
-	double squareArea;
+	double squareArea = 0;
 	double diagonal = sqrt(squareArea);
 	std::cout << "Enter the area of a square" << std::endl;
 	std::cin >> squareArea;
@@ -102,7 +101,7 @@ void ex03() {
 
 void ex04() {
 	//a)
-	int answer;
+	int answer = 0;
 	std::cout << "Enter and integer between 1 and 10" << std::endl;
 	while (answer > 1 && answer < 10 && !std::cin.fail()) {
 		std::cin.clear();
@@ -132,17 +131,21 @@ void ex04() {
 	add(rand() % 100, rand() % 100);
 	//g)
 }
-int doubleint(int x) {
-	return x * 2;
-}
-int add(int x, int y) {
-	return x + y;
-}
-void addOne(int &x) {
-	x++;
-}
+
 
 
 void ex05() {
 
 }
+
+int main()
+{
+	ex02();
+	ex03();
+	ex04();
+	ex05();
+
+	return 0;
+}
+
+
