@@ -86,10 +86,10 @@ void ex03() {
 	}
 
 	//c)
-	//Ihave no idea what this is!!
+	//I have no idea what this is!!
 
 	//d
-	//when I try to use string as an identifier it shows an error. Possibly because I'm missing a par tof the library
+	//when I try to use string as an identifier it shows an error. Possibly because I'm missing a part of the library
 	//I am using a C style string instead
 	char mailingAddress[] = "";
 	std::cout << "Enter your mailing address" << std::endl;
