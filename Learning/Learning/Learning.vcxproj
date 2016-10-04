@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{79432B20-6C19-46DD-876A-7DAEC4D89EA9}</ProjectGuid>
+    <ProjectGuid>{DAA95773-F961-4460-8F55-933BC153A4CB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>practivce1</RootNamespace>
+    <RootNamespace>Learning</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,9 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Galaxy.cpp" />
-    <ClCompile Include="Planet.cpp" />
-    <ClCompile Include="practivce1.cpp" />
+    <ClCompile Include="Learning.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
