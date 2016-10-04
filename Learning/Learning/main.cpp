@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+#include "Dice.cpp"
 
 
 int main()
